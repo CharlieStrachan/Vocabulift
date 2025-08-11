@@ -1,0 +1,390 @@
+{
+    "categories": {
+      "General": [
+        {
+          "word": "Abundant",
+          "definition": "Existing or occurring in large amounts.",
+          "pronunciation": "uh-bun-duhnt"
+        },
+        {
+          "word": "Candid",
+          "definition": "Truthful and straightforward; frank.",
+          "pronunciation": "kan-did"
+        },
+        {
+          "word": "Eclectic",
+          "definition": "Deriving ideas or style from a broad range of sources.",
+          "pronunciation": "ih-klek-tik"
+        },
+        {
+          "word": "Futile",
+          "definition": "Incapable of producing any useful result; pointless.",
+          "pronunciation": "fyoo-tl"
+        },
+        {
+          "word": "Aloof",
+          "definition": "Not friendly or forthcoming; cool and distant.",
+          "pronunciation": "uh-loof"
+        },
+        {
+          "word": "Ambiguous",
+          "definition": "Open to more than one interpretation; unclear.",
+          "pronunciation": "am-big-yoo-uhs"
+        },
+        {
+          "word": "Baffle",
+          "definition": "Totally bewilder or perplex.",
+          "pronunciation": "baf-uhl"
+        },
+        {
+          "word": "Capitulate",
+          "definition": "Cease to resist an opponent; surrender.",
+          "pronunciation": "kuh-pich-uh-layt"
+        },
+        {
+          "word": "Eloquent",
+          "definition": "Fluent or persuasive in speaking or writing.",
+          "pronunciation": "el-uh-kwuhnt"
+        },
+        {
+          "word": "Fortuitous",
+          "definition": "Happening by accident or chance rather than design.",
+          "pronunciation": "for-too-i-tuhs"
+        },
+        {
+          "word": "Galvanize",
+          "definition": "Shock or excite someone into taking action.",
+          "pronunciation": "gal-vuh-nahyz"
+        },
+        {
+          "word": "Hapless",
+          "definition": "Unfortunate.",
+          "pronunciation": "hap-lis"
+        },
+        {
+          "word": "Impetuous",
+          "definition": "Acting quickly without thought or care.",
+          "pronunciation": "im-pech-oo-uhs"
+        },
+        {
+          "word": "Juxtapose",
+          "definition": "Place close together for contrasting effect.",
+          "pronunciation": "juhk-stuh-pohz"
+        },
+        {
+          "word": "Kudos",
+          "definition": "Praise and honor received for achievement.",
+          "pronunciation": "koo-dohs"
+        }
+      ],
+      "Technology": [
+        {
+          "word": "Algorithm",
+          "definition": "A process or set of rules to be followed in problem-solving operations.",
+          "pronunciation": "al-guh-rith-uhm"
+        },
+        {
+          "word": "Cache",
+          "definition": "A hardware or software component that stores data so future requests are faster.",
+          "pronunciation": "cash"
+        },
+        {
+          "word": "Cloud",
+          "definition": "Network of remote servers to store and manage data.",
+          "pronunciation": "kloud"
+        },
+        {
+          "word": "Debug",
+          "definition": "Identify and remove errors from computer hardware or software.",
+          "pronunciation": "dee-bug"
+        },
+        {
+          "word": "Encryption",
+          "definition": "The process of converting information into code to prevent unauthorized access.",
+          "pronunciation": "en-krip-shuhn"
+        },
+        {
+          "word": "Firewall",
+          "definition": "Network security system that monitors incoming and outgoing traffic.",
+          "pronunciation": "fahyuh-wawl"
+        },
+        {
+          "word": "Kernel",
+          "definition": "The central part of an operating system.",
+          "pronunciation": "ur-nl"
+        },
+        {
+          "word": "Latency",
+          "definition": "Delay before a transfer of data begins following an instruction.",
+          "pronunciation": "lat-n-see"
+        },
+        {
+          "word": "Malware",
+          "definition": "Software designed to disrupt or damage a computer system.",
+          "pronunciation": "mal-wair"
+        },
+        {
+          "word": "Protocol",
+          "definition": "Set of rules governing data communication.",
+          "pronunciation": "proh-tuh-kawl"
+        },
+        {
+          "word": "Quantum",
+          "definition": "The minimum amount of any physical entity involved in an interaction.",
+          "pronunciation": "kwon-tuhm"
+        },
+        {
+          "word": "Script",
+          "definition": "A set of instructions executed by another program.",
+          "pronunciation": "skript"
+        },
+        {
+          "word": "Syntax",
+          "definition": "Rules defining the combinations of symbols that are considered correctly structured programs.",
+          "pronunciation": "sin-taks"
+        },
+        {
+          "word": "Virtualization",
+          "definition": "Creating a virtual version of something, like hardware or storage.",
+          "pronunciation": "vur-choo-uhl-eye-zay-shuhn"
+        },
+        {
+          "word": "Widget",
+          "definition": "A small application with limited functionality that can be installed and executed within a web page.",
+          "pronunciation": "wij-it"
+        }
+      ],
+      "Business": [
+        {
+          "word": "Asset",
+          "definition": "A resource with economic value.",
+          "pronunciation": "as-et"
+        },
+        {
+          "word": "Budget",
+          "definition": "An estimate of income and expenditure.",
+          "pronunciation": "buhj-it"
+        },
+        {
+          "word": "Capital",
+          "definition": "Financial assets or resources.",
+          "pronunciation": "kap-i-tl"
+        },
+        {
+          "word": "Dividend",
+          "definition": "A sum of money paid regularly to shareholders.",
+          "pronunciation": "div-i-dend"
+        },
+        {
+          "word": "Equity",
+          "definition": "Ownership interest in a company.",
+          "pronunciation": "ek-wi-tee"
+        },
+        {
+          "word": "Forecast",
+          "definition": "A prediction of future financial performance.",
+          "pronunciation": "for-kast"
+        },
+        {
+          "word": "Liability",
+          "definition": "A company's legal debts or obligations.",
+          "pronunciation": "lahy-uh-bil-i-tee"
+        },
+        {
+          "word": "Merger",
+          "definition": "Combination of two companies.",
+          "pronunciation": "mur-jer"
+        },
+        {
+          "word": "Outsourcing",
+          "definition": "Obtaining goods or services from an outside supplier.",
+          "pronunciation": "out-sawrs-ing"
+        },
+        {
+          "word": "Profit",
+          "definition": "Financial gain after expenses.",
+          "pronunciation": "prof-it"
+        },
+        {
+          "word": "Revenue",
+          "definition": "Income from business activities.",
+          "pronunciation": "rev-uh-noo"
+        },
+        {
+          "word": "Stakeholder",
+          "definition": "A person or organization with interest in a company.",
+          "pronunciation": "steyk-hohl-der"
+        },
+        {
+          "word": "Subsidiary",
+          "definition": "A company controlled by another company.",
+          "pronunciation": "suhb-sid-ee-er-ee"
+        },
+        {
+          "word": "Turnover",
+          "definition": "Total sales or revenue.",
+          "pronunciation": "turn-oh-ver"
+        },
+        {
+          "word": "Valuation",
+          "definition": "Process of determining the value of an asset.",
+          "pronunciation": "val-yoo-ay-shuhn"
+        }
+      ],
+      "Science": [
+        {
+          "word": "Atom",
+          "definition": "The basic unit of a chemical element.",
+          "pronunciation": "at-uhm"
+        },
+        {
+          "word": "Cell",
+          "definition": "The smallest structural unit of an organism.",
+          "pronunciation": "sel"
+        },
+        {
+          "word": "DNA",
+          "definition": "Molecule that carries genetic instructions.",
+          "pronunciation": "dee-en-ay"
+        },
+        {
+          "word": "Energy",
+          "definition": "Capacity to do work.",
+          "pronunciation": "en-er-jee"
+        },
+        {
+          "word": "Force",
+          "definition": "An influence that changes motion.",
+          "pronunciation": "fors"
+        },
+        {
+          "word": "Gene",
+          "definition": "Basic unit of heredity.",
+          "pronunciation": "jeen"
+        },
+        {
+          "word": "Gravity",
+          "definition": "Force that attracts objects toward each other.",
+          "pronunciation": "grav-i-tee"
+        },
+        {
+          "word": "Ion",
+          "definition": "An atom or molecule with a net electric charge.",
+          "pronunciation": "ahy-on"
+        },
+        {
+          "word": "Molecule",
+          "definition": "A group of atoms bonded together.",
+          "pronunciation": "mol-i-kyool"
+        },
+        {
+          "word": "Neuron",
+          "definition": "Nerve cell that transmits signals.",
+          "pronunciation": "noor-on"
+        },
+        {
+          "word": "Photosynthesis",
+          "definition": "Process by which plants make food using sunlight.",
+          "pronunciation": "foh-toh-sin-thuh-sis"
+        },
+        {
+          "word": "Quantum",
+          "definition": "Smallest possible discrete unit of any physical property.",
+          "pronunciation": "kwon-tuhm"
+        },
+        {
+          "word": "Radius",
+          "definition": "Distance from center to edge of a circle or sphere.",
+          "pronunciation": "rey-dee-uhs"
+        },
+        {
+          "word": "Species",
+          "definition": "Group of organisms capable of interbreeding.",
+          "pronunciation": "spee-sheez"
+        },
+        {
+          "word": "Velocity",
+          "definition": "Speed with direction.",
+          "pronunciation": "vuh-los-i-tee"
+        }
+      ],
+      "Arts": [
+        {
+          "word": "Canvas",
+          "definition": "A strong cloth used as a surface for painting.",
+          "pronunciation": "kan-vuhs"
+        },
+        {
+          "word": "Chorus",
+          "definition": "A group of singers or a repeated part of a song.",
+          "pronunciation": "kor-uhs"
+        },
+        {
+          "word": "Drama",
+          "definition": "A play for theater, radio, or television.",
+          "pronunciation": "drah-muh"
+        },
+        {
+          "word": "Harmony",
+          "definition": "Combination of simultaneously sounded musical notes.",
+          "pronunciation": "hahr-muh-nee"
+        },
+        {
+          "word": "Melody",
+          "definition": "Sequence of musical notes.",
+          "pronunciation": "mel-uh-dee"
+        },
+        {
+          "word": "Opera",
+          "definition": "A dramatic work combining text and musical score.",
+          "pronunciation": "op-er-uh"
+        },
+        {
+          "word": "Palette",
+          "definition": "A board on which an artist mixes paints.",
+          "pronunciation": "pal-it"
+        },
+        {
+          "word": "Rhythm",
+          "definition": "Pattern of sounds and silences in music.",
+          "pronunciation": "rith-uhm"
+        },
+        {
+          "word": "Sculpture",
+          "definition": "Three-dimensional artwork created by shaping materials.",
+          "pronunciation": "skulp-chur"
+        },
+        {
+          "word": "Symphony",
+          "definition": "An elaborate musical composition for orchestra.",
+          "pronunciation": "sim-fuh-nee"
+        },
+        {
+          "word": "Technique",
+          "definition": "Method of accomplishing a desired aim in art.",
+          "pronunciation": "tek-neek"
+        },
+        {
+          "word": "Theater",
+          "definition": "A building or area for dramatic performances.",
+          "pronunciation": "thee-uh-ter"
+        },
+        {
+          "word": "Tone",
+          "definition": "Quality or character of a sound or voice.",
+          "pronunciation": "tohn"
+        },
+        {
+          "word": "Vignette",
+          "definition": "A brief evocative description or episode.",
+          "pronunciation": "vin-yet"
+        },
+        {
+          "word": "Watercolor",
+          "definition": "A painting method using pigments suspended in water.",
+          "pronunciation": "waw-ter-kuhl-er"
+        }
+      ]
+    }
+  }
+  
