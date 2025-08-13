@@ -72,6 +72,7 @@ class _AppState extends State<App> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CustomText(text: _currentWord.word, fontSize: 24),
+              CustomText(text: _currentWord.pronunciation, faded: true),
               SizedBox(height: 10),
               CustomText(text: _currentWord.definition),
               SizedBox(height: 10),

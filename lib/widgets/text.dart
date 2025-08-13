@@ -6,12 +6,14 @@ class CustomText extends StatelessWidget {
   final String text;
   final double? fontSize;
   final FontWeight? fontWeight;
+  final bool? faded;
 
   const CustomText({
     super.key,
     required this.text,
     this.fontSize,
     this.fontWeight,
+    this.faded,
   });
 
   @override
@@ -20,10 +22,11 @@ class CustomText extends StatelessWidget {
       text,
       textAlign: TextAlign.center,
       style: TextStyle(
-        color: colors[3],
+        color: faded == true ? colors[3].withAlpha(128) : colors[3],
         fontFamily: GoogleFonts.lexend().fontFamily,
         fontSize: fontSize ?? 18,
         fontWeight: fontWeight ?? FontWeight.bold,
+        fontStyle: faded == true ? FontStyle.italic : FontStyle.normal,
       ),
     );
   }
