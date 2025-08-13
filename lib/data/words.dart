@@ -9,7 +9,7 @@ class WordsService {
   List<Word> get words => _words;
 
   Future<void> loadWords(Category category) async {
-    final String jsonString = await rootBundle.loadString('assets/words.json');
+    final String jsonString = await rootBundle.loadString('assets/data/words.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonString);
 
     final List<dynamic>? wordsJson = jsonMap['categories']?[category.name];

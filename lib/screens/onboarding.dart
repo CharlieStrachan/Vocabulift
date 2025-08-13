@@ -34,7 +34,7 @@ class _OnboardingState extends State<Onboarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: colors[0],
+      backgroundColor: colors["backgroundColor"],
       appBar: CustomAppBar(title: "Vocabulift - Onboarding"),
       body: Center(
         child: SingleChildScrollView(

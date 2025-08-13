@@ -22,7 +22,7 @@ class CustomText extends StatelessWidget {
       text,
       textAlign: TextAlign.center,
       style: TextStyle(
-        color: faded == true ? colors[3].withAlpha(128) : colors[3],
+        color: faded == true ? colors["fontColor"]!.withAlpha(128) : colors["fontColor"]!,
         fontFamily: GoogleFonts.lexend().fontFamily,
         fontSize: fontSize ?? 18,
         fontWeight: fontWeight ?? FontWeight.bold,

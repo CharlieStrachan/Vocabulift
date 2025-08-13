@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:vocabulift/constants.dart';
 import 'package:vocabulift/data/words.dart';
@@ -50,18 +51,20 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: colors[0],
+      backgroundColor: colors["backgroundColor"],
       appBar: CustomAppBar(
         title: "Vocabulift - Home",
         actions: [
           IconButton(
             onPressed: () {
+              AudioPlayer player = AudioPlayer();
+              player.play(AssetSource("sounds/press.wav"));
               Navigator.of(
                 context,
               ).push(MaterialPageRoute(builder: (context) => Onboarding()));
             },
             icon: Icon(Icons.logout),
-            color: colors[3],
+            color: colors["fontColor"],
           ),
         ],
       ),

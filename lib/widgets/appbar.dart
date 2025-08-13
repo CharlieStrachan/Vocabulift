@@ -16,7 +16,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
       automaticallyImplyLeading: false,
       title: CustomText(text: title ?? "Vocabulift", fontSize: 24),
       actions: actions,
-      backgroundColor: colors[1],
+      backgroundColor: colors["containerColor"],
     );
   }
 }

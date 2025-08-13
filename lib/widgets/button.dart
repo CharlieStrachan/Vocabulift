@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:vocabulift/constants.dart';
 import 'package:vocabulift/widgets/text.dart';
@@ -12,7 +13,7 @@ class Button extends StatefulWidget {
 }
 
 class _ButtonState extends State<Button> {
-  Color _buttonColor = colors[1];
+  Color _buttonColor = colors["containerColor"]!;
   double _sizeMultiplier = 1.0;
   @override
   Widget build(BuildContext context) {
@@ -21,12 +22,12 @@ class _ButtonState extends State<Button> {
       child: MouseRegion(
         onEnter: (event) {
           setState(() {
-            _buttonColor = colors[2];
+            _buttonColor = colors["widgetColor"]!;
           });
         },
         onExit: (event) {
           setState(() {
-            _buttonColor = colors[1];
+            _buttonColor = colors["containerColor"]!;
           });
         },
         child: GestureDetector(
@@ -39,6 +40,8 @@ class _ButtonState extends State<Button> {
                 _sizeMultiplier = 1.0;
               });
             });
+            AudioPlayer player = AudioPlayer();
+            player.play(AssetSource("sounds/press.wav"));
             widget.onTap();
           },
           child: AnimatedContainer(
