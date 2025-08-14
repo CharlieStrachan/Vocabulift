@@ -15,6 +15,15 @@ class Button extends StatefulWidget {
 class _ButtonState extends State<Button> {
   Color _buttonColor = colors["containerColor"]!;
   double _sizeMultiplier = 1.0;
+
+  final AudioPlayer _audioPlayer = AudioPlayer();
+
+  @override
+  void dispose() {
+    _audioPlayer.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -40,8 +49,7 @@ class _ButtonState extends State<Button> {
                 _sizeMultiplier = 1.0;
               });
             });
-            AudioPlayer player = AudioPlayer();
-            player.play(AssetSource("sounds/press.wav"));
+            _audioPlayer.play(AssetSource("sounds/press.wav"));
             widget.onTap();
           },
           child: AnimatedContainer(
