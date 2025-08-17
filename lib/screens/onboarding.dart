@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:vocabulift/constants.dart';
 import 'package:vocabulift/screens/app.dart';
 import 'package:vocabulift/widgets/appbar.dart';
-import 'package:vocabulift/models/category.dart';
 import 'package:vocabulift/widgets/button.dart';
 import 'package:vocabulift/widgets/text.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 final List<String> _labels = [
   "General",
@@ -12,13 +12,6 @@ final List<String> _labels = [
   "Arts",
   "Technology",
   "Science",
-];
-final List<Category> _categories = [
-  Category.general,
-  Category.business,
-  Category.arts,
-  Category.technology,
-  Category.science,
 ];
 
 class Onboarding extends StatefulWidget {
@@ -29,7 +22,13 @@ class Onboarding extends StatefulWidget {
 }
 
 class _OnboardingState extends State<Onboarding> {
-  late Category _category;
+  late int _category;
+
+  void _savePreferences() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setBool("showOnboarding", false);
+    prefs.setInt("category", _category);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -52,11 +51,12 @@ class _OnboardingState extends State<Onboarding> {
                   alignment: WrapAlignment.center,
                   spacing: 4,
                   runSpacing: 4,
-                  children: List.generate(_categories.length, (index) {
+                  children: List.generate(5, (index) {
                     return Button(
                       onTap: () {
                         setState(() {
-                          _category = _categories[index];
+                          _category = index;
+                          _savePreferences();
                           Navigator.of(context).pushReplacement(
                             MaterialPageRoute(
                               builder: (context) => App(category: _category),

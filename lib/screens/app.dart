@@ -5,12 +5,11 @@ import 'package:vocabulift/data/words.dart';
 import 'package:vocabulift/screens/onboarding.dart';
 import 'package:vocabulift/widgets/appbar.dart';
 import 'package:vocabulift/models/word.dart';
-import 'package:vocabulift/models/category.dart';
 import 'package:vocabulift/widgets/button.dart';
 import 'package:vocabulift/widgets/text.dart';
 
 class App extends StatefulWidget {
-  final Category category;
+  final int category;
   const App({super.key, required this.category});
 
   @override
