@@ -1,390 +1,163 @@
 {
-    "categories": {
-      "General": [
-        {
-          "word": "Abundant",
-          "definition": "Existing or occurring in large amounts.",
-          "pronunciation": "uh-bun-duhnt"
-        },
-        {
-          "word": "Candid",
-          "definition": "Truthful and straightforward; frank.",
-          "pronunciation": "kan-did"
-        },
-        {
-          "word": "Eclectic",
-          "definition": "Deriving ideas or style from a broad range of sources.",
-          "pronunciation": "ih-klek-tik"
-        },
-        {
-          "word": "Futile",
-          "definition": "Incapable of producing any useful result; pointless.",
-          "pronunciation": "fyoo-tl"
-        },
-        {
-          "word": "Aloof",
-          "definition": "Not friendly or forthcoming; cool and distant.",
-          "pronunciation": "uh-loof"
-        },
-        {
-          "word": "Ambiguous",
-          "definition": "Open to more than one interpretation; unclear.",
-          "pronunciation": "am-big-yoo-uhs"
-        },
-        {
-          "word": "Baffle",
-          "definition": "Totally bewilder or perplex.",
-          "pronunciation": "baf-uhl"
-        },
-        {
-          "word": "Capitulate",
-          "definition": "Cease to resist an opponent; surrender.",
-          "pronunciation": "kuh-pich-uh-layt"
-        },
-        {
-          "word": "Eloquent",
-          "definition": "Fluent or persuasive in speaking or writing.",
-          "pronunciation": "el-uh-kwuhnt"
-        },
-        {
-          "word": "Fortuitous",
-          "definition": "Happening by accident or chance rather than design.",
-          "pronunciation": "for-too-i-tuhs"
-        },
-        {
-          "word": "Galvanize",
-          "definition": "Shock or excite someone into taking action.",
-          "pronunciation": "gal-vuh-nahyz"
-        },
-        {
-          "word": "Hapless",
-          "definition": "Unfortunate.",
-          "pronunciation": "hap-lis"
-        },
-        {
-          "word": "Impetuous",
-          "definition": "Acting quickly without thought or care.",
-          "pronunciation": "im-pech-oo-uhs"
-        },
-        {
-          "word": "Juxtapose",
-          "definition": "Place close together for contrasting effect.",
-          "pronunciation": "juhk-stuh-pohz"
-        },
-        {
-          "word": "Kudos",
-          "definition": "Praise and honor received for achievement.",
-          "pronunciation": "koo-dohs"
-        }
-      ],
-      "Technology": [
-        {
-          "word": "Algorithm",
-          "definition": "A process or set of rules to be followed in problem-solving operations.",
-          "pronunciation": "al-guh-rith-uhm"
-        },
-        {
-          "word": "Cache",
-          "definition": "A hardware or software component that stores data so future requests are faster.",
-          "pronunciation": "cash"
-        },
-        {
-          "word": "Cloud",
-          "definition": "Network of remote servers to store and manage data.",
-          "pronunciation": "kloud"
-        },
-        {
-          "word": "Debug",
-          "definition": "Identify and remove errors from computer hardware or software.",
-          "pronunciation": "dee-bug"
-        },
-        {
-          "word": "Encryption",
-          "definition": "The process of converting information into code to prevent unauthorized access.",
-          "pronunciation": "en-krip-shuhn"
-        },
-        {
-          "word": "Firewall",
-          "definition": "Network security system that monitors incoming and outgoing traffic.",
-          "pronunciation": "fahyuh-wawl"
-        },
-        {
-          "word": "Kernel",
-          "definition": "The central part of an operating system.",
-          "pronunciation": "ur-nl"
-        },
-        {
-          "word": "Latency",
-          "definition": "Delay before a transfer of data begins following an instruction.",
-          "pronunciation": "lat-n-see"
-        },
-        {
-          "word": "Malware",
-          "definition": "Software designed to disrupt or damage a computer system.",
-          "pronunciation": "mal-wair"
-        },
-        {
-          "word": "Protocol",
-          "definition": "Set of rules governing data communication.",
-          "pronunciation": "proh-tuh-kawl"
-        },
-        {
-          "word": "Quantum",
-          "definition": "The minimum amount of any physical entity involved in an interaction.",
-          "pronunciation": "kwon-tuhm"
-        },
-        {
-          "word": "Script",
-          "definition": "A set of instructions executed by another program.",
-          "pronunciation": "skript"
-        },
-        {
-          "word": "Syntax",
-          "definition": "Rules defining the combinations of symbols that are considered correctly structured programs.",
-          "pronunciation": "sin-taks"
-        },
-        {
-          "word": "Virtualization",
-          "definition": "Creating a virtual version of something, like hardware or storage.",
-          "pronunciation": "vur-choo-uhl-eye-zay-shuhn"
-        },
-        {
-          "word": "Widget",
-          "definition": "A small application with limited functionality that can be installed and executed within a web page.",
-          "pronunciation": "wij-it"
-        }
-      ],
-      "Business": [
-        {
-          "word": "Asset",
-          "definition": "A resource with economic value.",
-          "pronunciation": "as-et"
-        },
-        {
-          "word": "Budget",
-          "definition": "An estimate of income and expenditure.",
-          "pronunciation": "buhj-it"
-        },
-        {
-          "word": "Capital",
-          "definition": "Financial assets or resources.",
-          "pronunciation": "kap-i-tl"
-        },
-        {
-          "word": "Dividend",
-          "definition": "A sum of money paid regularly to shareholders.",
-          "pronunciation": "div-i-dend"
-        },
-        {
-          "word": "Equity",
-          "definition": "Ownership interest in a company.",
-          "pronunciation": "ek-wi-tee"
-        },
-        {
-          "word": "Forecast",
-          "definition": "A prediction of future financial performance.",
-          "pronunciation": "for-kast"
-        },
-        {
-          "word": "Liability",
-          "definition": "A company's legal debts or obligations.",
-          "pronunciation": "lahy-uh-bil-i-tee"
-        },
-        {
-          "word": "Merger",
-          "definition": "Combination of two companies.",
-          "pronunciation": "mur-jer"
-        },
-        {
-          "word": "Outsourcing",
-          "definition": "Obtaining goods or services from an outside supplier.",
-          "pronunciation": "out-sawrs-ing"
-        },
-        {
-          "word": "Profit",
-          "definition": "Financial gain after expenses.",
-          "pronunciation": "prof-it"
-        },
-        {
-          "word": "Revenue",
-          "definition": "Income from business activities.",
-          "pronunciation": "rev-uh-noo"
-        },
-        {
-          "word": "Stakeholder",
-          "definition": "A person or organization with interest in a company.",
-          "pronunciation": "steyk-hohl-der"
-        },
-        {
-          "word": "Subsidiary",
-          "definition": "A company controlled by another company.",
-          "pronunciation": "suhb-sid-ee-er-ee"
-        },
-        {
-          "word": "Turnover",
-          "definition": "Total sales or revenue.",
-          "pronunciation": "turn-oh-ver"
-        },
-        {
-          "word": "Valuation",
-          "definition": "Process of determining the value of an asset.",
-          "pronunciation": "val-yoo-ay-shuhn"
-        }
-      ],
-      "Science": [
-        {
-          "word": "Atom",
-          "definition": "The basic unit of a chemical element.",
-          "pronunciation": "at-uhm"
-        },
-        {
-          "word": "Cell",
-          "definition": "The smallest structural unit of an organism.",
-          "pronunciation": "sel"
-        },
-        {
-          "word": "DNA",
-          "definition": "Molecule that carries genetic instructions.",
-          "pronunciation": "dee-en-ay"
-        },
-        {
-          "word": "Energy",
-          "definition": "Capacity to do work.",
-          "pronunciation": "en-er-jee"
-        },
-        {
-          "word": "Force",
-          "definition": "An influence that changes motion.",
-          "pronunciation": "fors"
-        },
-        {
-          "word": "Gene",
-          "definition": "Basic unit of heredity.",
-          "pronunciation": "jeen"
-        },
-        {
-          "word": "Gravity",
-          "definition": "Force that attracts objects toward each other.",
-          "pronunciation": "grav-i-tee"
-        },
-        {
-          "word": "Ion",
-          "definition": "An atom or molecule with a net electric charge.",
-          "pronunciation": "ahy-on"
-        },
-        {
-          "word": "Molecule",
-          "definition": "A group of atoms bonded together.",
-          "pronunciation": "mol-i-kyool"
-        },
-        {
-          "word": "Neuron",
-          "definition": "Nerve cell that transmits signals.",
-          "pronunciation": "noor-on"
-        },
-        {
-          "word": "Photosynthesis",
-          "definition": "Process by which plants make food using sunlight.",
-          "pronunciation": "foh-toh-sin-thuh-sis"
-        },
-        {
-          "word": "Quantum",
-          "definition": "Smallest possible discrete unit of any physical property.",
-          "pronunciation": "kwon-tuhm"
-        },
-        {
-          "word": "Radius",
-          "definition": "Distance from center to edge of a circle or sphere.",
-          "pronunciation": "rey-dee-uhs"
-        },
-        {
-          "word": "Species",
-          "definition": "Group of organisms capable of interbreeding.",
-          "pronunciation": "spee-sheez"
-        },
-        {
-          "word": "Velocity",
-          "definition": "Speed with direction.",
-          "pronunciation": "vuh-los-i-tee"
-        }
-      ],
-      "Arts": [
-        {
-          "word": "Canvas",
-          "definition": "A strong cloth used as a surface for painting.",
-          "pronunciation": "kan-vuhs"
-        },
-        {
-          "word": "Chorus",
-          "definition": "A group of singers or a repeated part of a song.",
-          "pronunciation": "kor-uhs"
-        },
-        {
-          "word": "Drama",
-          "definition": "A play for theater, radio, or television.",
-          "pronunciation": "drah-muh"
-        },
-        {
-          "word": "Harmony",
-          "definition": "Combination of simultaneously sounded musical notes.",
-          "pronunciation": "hahr-muh-nee"
-        },
-        {
-          "word": "Melody",
-          "definition": "Sequence of musical notes.",
-          "pronunciation": "mel-uh-dee"
-        },
-        {
-          "word": "Opera",
-          "definition": "A dramatic work combining text and musical score.",
-          "pronunciation": "op-er-uh"
-        },
-        {
-          "word": "Palette",
-          "definition": "A board on which an artist mixes paints.",
-          "pronunciation": "pal-it"
-        },
-        {
-          "word": "Rhythm",
-          "definition": "Pattern of sounds and silences in music.",
-          "pronunciation": "rith-uhm"
-        },
-        {
-          "word": "Sculpture",
-          "definition": "Three-dimensional artwork created by shaping materials.",
-          "pronunciation": "skulp-chur"
-        },
-        {
-          "word": "Symphony",
-          "definition": "An elaborate musical composition for orchestra.",
-          "pronunciation": "sim-fuh-nee"
-        },
-        {
-          "word": "Technique",
-          "definition": "Method of accomplishing a desired aim in art.",
-          "pronunciation": "tek-neek"
-        },
-        {
-          "word": "Theater",
-          "definition": "A building or area for dramatic performances.",
-          "pronunciation": "thee-uh-ter"
-        },
-        {
-          "word": "Tone",
-          "definition": "Quality or character of a sound or voice.",
-          "pronunciation": "tohn"
-        },
-        {
-          "word": "Vignette",
-          "definition": "A brief evocative description or episode.",
-          "pronunciation": "vin-yet"
-        },
-        {
-          "word": "Watercolor",
-          "definition": "A painting method using pigments suspended in water.",
-          "pronunciation": "waw-ter-kuhl-er"
-        }
-      ]
-    }
+  "categories": {
+    "General": [
+    {"word":"serendipity","pronunciation":"seh-ren-dih-pih-tee","definition":"The occurrence of events by chance in a happy or beneficial way.","example":"Discovering the hidden café was pure serendipity."},
+    {"word":"ephemeral","pronunciation":"eh-feh-mer-uhl","definition":"Lasting a very short time.","example":"The beauty of the sunset is ephemeral."},
+    {"word":"mellifluous","pronunciation":"meh-lih-flu-uhs","definition":"Pleasantly smooth and musical to hear.","example":"Her mellifluous voice captivated the audience."},
+    {"word":"obfuscate","pronunciation":"ob-fuh-skayt","definition":"To deliberately make something unclear or confusing.","example":"The instructions seemed designed to obfuscate the process."},
+    {"word":"ubiquitous","pronunciation":"yoo-bik-wi-tuhs","definition":"Present or found everywhere.","example":"Smartphones are ubiquitous in modern life."},
+    {"word":"quixotic","pronunciation":"kwik-sot-ik","definition":"Exceedingly idealistic and impractical.","example":"His plan to solve world hunger overnight was quixotic."},
+    {"word":"recalcitrant","pronunciation":"ri-kal-si-truhnt","definition":"Resistant to authority or control.","example":"The recalcitrant student ignored all instructions."},
+    {"word":"esoteric","pronunciation":"es-uh-ter-ik","definition":"Intended for or likely understood by only a small number of people.","example":"He has an esoteric knowledge of medieval literature."},
+    {"word":"ineffable","pronunciation":"in-ef-uh-buhl","definition":"Too great or extreme to be expressed in words.","example":"The view from the mountaintop was ineffable."},
+    {"word":"abstruse","pronunciation":"ab-stroos","definition":"Difficult to understand; obscure.","example":"The book is full of abstruse philosophical concepts."},
+    {"word":"sagacious","pronunciation":"suh-gay-shuhs","definition":"Having keen mental discernment and good judgment.","example":"Her sagacious advice helped him avoid mistakes."},
+    {"word":"anachronistic","pronunciation":"uh-nak-ruh-nis-tik","definition":"Belonging to a period other than that being portrayed.","example":"The movie was full of anachronistic details."},
+    {"word":"obstreperous","pronunciation":"ob-strep-er-uhs","definition":"Noisy and difficult to control.","example":"The obstreperous crowd delayed the show."},
+    {"word":"recondite","pronunciation":"rek-uhn-dahyt","definition":"Little known; abstruse.","example":"He read recondite texts about ancient civilizations."},
+    {"word":"perspicacious","pronunciation":"pur-spih-kay-shuhs","definition":"Having a ready insight into things; perceptive.","example":"Her perspicacious remarks impressed the committee."},
+    {"word":"insouciant","pronunciation":"in-soo-see-uhnt","definition":"Showing a casual lack of concern; indifferent.","example":"He strolled through life insouciant and carefree."},
+    {"word":"pellucid","pronunciation":"puh-loo-sid","definition":"Translucently clear.","example":"The mountain lake was pellucid."},
+    {"word":"lugubrious","pronunciation":"loo-goo-bree-uhs","definition":"Looking or sounding sad and dismal.","example":"His lugubrious tone made everyone uncomfortable."},
+    {"word":"redolent","pronunciation":"red-uh-luhnt","definition":"Strongly reminiscent or suggestive of something.","example":"The kitchen was redolent of fresh bread."},
+    {"word":"sesquipedalian","pronunciation":"ses-kwi-puh-day-lee-uhn","definition":"Given to using long words; long-winded.","example":"His sesquipedalian speech bored the audience."},
+    {"word":"defenestration","pronunciation":"dee-fen-uh-stray-shun","definition":"The act of throwing someone out of a window.","example":"The historical defenestration caused a riot."},
+    {"word":"antediluvian","pronunciation":"an-ti-dil-oo-vee-uhn","definition":"Ridiculously old-fashioned; literally before the flood.","example":"His antediluvian views angered the younger generation."},
+    {"word":"intransigent","pronunciation":"in-tran-suh-juhnt","definition":"Unwilling to change views or agree about something.","example":"The negotiator was intransigent on key points."},
+    {"word":"vicissitude","pronunciation":"vi-sis-i-tood","definition":"A change of circumstances or fortune, typically unwelcome.","example":"He endured the vicissitudes of a military career."},
+    {"word":"perfidious","pronunciation":"per-fid-ee-uhs","definition":"Deceitful and untrustworthy.","example":"The perfidious ally betrayed them at the last moment."},
+    {"word":"pusillanimous","pronunciation":"pyoo-suh-lan-uh-muhs","definition":"Showing a lack of courage or determination; timid.","example":"The pusillanimous leader avoided confrontation."},
+    {"word":"rebarbative","pronunciation":"ri-bar-buh-tiv","definition":"Unattractive and objectionable.","example":"The rebarbative architecture put off tourists."},
+    {"word":"antedated","pronunciation":"an-ti-day-tid","definition":"Occurring before something else; predate.","example":"The discovery antedated all previous theories."},
+    {"word":"obloquy","pronunciation":"ob-luh-kwee","definition":"Strong public criticism or verbal abuse.","example":"The politician faced obloquy after the scandal."},
+    {"word":"soporific","pronunciation":"sop-uh-rif-ik","definition":"Tending to induce sleep.","example":"The lecture was soporific."},
+    {"word":"propinquity","pronunciation":"proh-pin-kwi-tee","definition":"The state of being close to someone or something; proximity.","example":"The propinquity of their offices fostered collaboration."},
+    {"word":"vicariant","pronunciation":"vy-kar-ee-uhnt","definition":"Acting in place of another.","example":"She assumed a vicariant role during the manager's absence."},
+    {"word":"contumacious","pronunciation":"kon-too-may-shuhs","definition":"Stubbornly disobedient; rebellious.","example":"The contumacious student refused to leave the classroom."},
+    {"word":"adscititious","pronunciation":"ad-sis-tish-uhs","definition":"Added from an external source; not inherent.","example":"The report contained adscititious data."},
+    {"word":"peremptory","pronunciation":"puh-remp-tuh-ree","definition":"Insisting on immediate attention or obedience; brusque.","example":"The boss’s peremptory tone silenced the team."},
+    {"word":"pell-mell","pronunciation":"pel-mel","definition":"In a confused, rushed, or disorderly manner.","example":"The students rushed pell-mell to the cafeteria."},
+    {"word":"sesquipedality","pronunciation":"ses-kwi-puh-dal-i-tee","definition":"The quality of using long words.","example":"His sesquipedality amused his linguist friends."},
+    {"word":"inexorable","pronunciation":"in-ex-uh-ruh-buhl","definition":"Impossible to stop or prevent.","example":"The inexorable march of time affects everyone."},
+    {"word":"limerence","pronunciation":"lim-uh-ruhnce","definition":"The state of being infatuated or obsessed with another person.","example":"She felt limerence for her coworker."},
+    {"word":"refulgent","pronunciation":"ri-fuhl-juhnt","definition":"Shining brightly.","example":"The refulgent sun illuminated the valley."},
+    {"word":"ineffaceable","pronunciation":"in-uh-fay-suh-buhl","definition":"Unable to be erased or forgotten.","example":"The memory left an ineffaceable mark on him."}
+  ],
+    "Technology": [
+    {"word":"latency","pronunciation":"lay-ten-see","definition":"The delay between an input and its corresponding output in a system.","example":"High latency makes online gaming frustrating."},
+    {"word":"throughput","pronunciation":"throo-put","definition":"The amount of data transferred in a given time.","example":"The server's throughput increased after the upgrade."},
+    {"word":"heuristic","pronunciation":"hyoo-ris-tik","definition":"A practical approach to problem solving using shortcuts.","example":"Heuristic algorithms speed up computations."},
+    {"word":"middleware","pronunciation":"mid-uhl-wair","definition":"Software that connects different applications or services.","example":"The app relies on middleware to access the database."},
+    {"word":"idempotent","pronunciation":"eye-dem-puh-tent","definition":"An operation that produces the same result no matter how many times it is applied.","example":"HTTP PUT requests are idempotent."},
+    {"word":"encapsulation","pronunciation":"en-kap-suh-lay-shun","definition":"Restricting direct access to data by bundling it with methods.","example":"Encapsulation protects object data in programming."},
+    {"word":"interoperability","pronunciation":"in-ter-op-uh-ruh-bil-i-tee","definition":"The ability of systems to work together across platforms.","example":"Interoperability is key in healthcare IT."},
+    {"word":"blockchain","pronunciation":"blok-chayn","definition":"A distributed ledger system for secure records.","example":"Cryptocurrencies use blockchain technology."},
+    {"word":"containerization","pronunciation":"kon-tay-nuh-ri-zay-shun","definition":"Packaging software with its dependencies into portable units.","example":"Docker uses containerization to simplify deployment."},
+    {"word":"quantum supremacy","pronunciation":"kwon-tuhm suh-prem-uh-see","definition":"When a quantum computer solves problems beyond classical computers.","example":"Google claimed a milestone in quantum supremacy."},
+    {"word":"homomorphic encryption","pronunciation":"ho-mo-mor-fik en-krip-shun","definition":"Allows computation on encrypted data without decrypting it.","example":"Homomorphic encryption ensures secure cloud computing."},
+    {"word":"serverless","pronunciation":"sur-ver-less","definition":"A cloud model where servers are managed by providers.","example":"Serverless apps scale automatically with demand."},
+    {"word":"sharding","pronunciation":"shahr-ding","definition":"Splitting a database into smaller, faster parts called shards.","example":"Sharding improved the database performance."},
+    {"word":"virtualization","pronunciation":"ver-chu-uh-li-zay-shun","definition":"Creating virtual versions of computing resources.","example":"Virtualization lets you run multiple OSes on one machine."},
+    {"word":"cryptojacking","pronunciation":"krip-toh-jak-ing","definition":"Illegally using someone’s computer to mine cryptocurrency.","example":"The malware was used for cryptojacking."},
+    {"word":"edge computing","pronunciation":"ej kom-pyoo-ting","definition":"Processing data closer to where it is generated.","example":"Edge computing reduces latency for IoT devices."},
+    {"word":"zero-knowledge proof","pronunciation":"zee-roh nol-ij proof","definition":"Proving possession of knowledge without revealing it.","example":"Zero-knowledge proofs enable private blockchain transactions."},
+    {"word":"observability","pronunciation":"ob-zur-vuh-bil-i-tee","definition":"Ability to measure a system’s internal state from outputs.","example":"Observability is crucial for debugging systems."},
+    {"word":"federated learning","pronunciation":"fed-uh-ray-tid lur-ning","definition":"ML trained across devices without centralizing data.","example":"Federated learning protects user privacy."},
+    {"word":"differentiable programming","pronunciation":"dif-er-en-shee-uh-buhl proh-gram-ing","definition":"Programming where operations are differentiable for optimization.","example":"Differentiable programming powers modern AI frameworks."},
+    {"word":"microservices","pronunciation":"my-kro-sur-vis-iz","definition":"An architectural style that structures an app as small services.","example":"Microservices allow independent deployment of features."},
+    {"word":"asynchronous","pronunciation":"ay-sin-kruh-nuhs","definition":"Operations that do not occur at the same time.","example":"Asynchronous calls improve web app responsiveness."},
+    {"word":"idiosyncratic","pronunciation":"id-ee-oh-sin-krat-ik","definition":"Peculiar to an individual or system.","example":"The software had an idiosyncratic error pattern."},
+    {"word":"recursion","pronunciation":"ree-kur-zhun","definition":"A function that calls itself.","example":"Recursion is a common programming technique."},
+    {"word":"polymorphism","pronunciation":"pol-ee-mor-fiz-um","definition":"Objects taking multiple forms in OOP.","example":"Polymorphism simplifies code reuse."},
+    {"word":"abstraction","pronunciation":"ab-strak-shun","definition":"Hiding details to focus on high-level concepts.","example":"Abstraction is key in software design."},
+    {"word":"concurrency","pronunciation":"kun-kur-en-see","definition":"Executing multiple tasks simultaneously.","example":"Concurrency improves server efficiency."},
+    {"word":"scalability","pronunciation":"skal-uh-bil-i-tee","definition":"Ability of a system to handle growth.","example":"Scalability is essential for cloud apps."},
+    {"word":"latency optimization","pronunciation":"lay-ten-see op-tuh-my-zay-shun","definition":"Reducing delays in data processing.","example":"The engineers focused on latency optimization."},
+    {"word":"bandwidth throttling","pronunciation":"band-with throt-ling","definition":"Deliberately limiting data transfer rate.","example":"Bandwidth throttling slowed the connection."},
+    {"word":"caching","pronunciation":"kash-ing","definition":"Storing data temporarily for faster access.","example":"Caching improved page load times."},
+    {"word":"load balancing","pronunciation":"load bal-uhn-sing","definition":"Distributing workloads across multiple resources.","example":"Load balancing prevents server overload."},
+    {"word":"fault tolerance","pronunciation":"fawlt tol-uh-rens","definition":"System continues operating even when parts fail.","example":"The database was designed with fault tolerance."},
+    {"word":"API gateway","pronunciation":"A-P-I gate-way","definition":"A server that acts as a single entry point for APIs.","example":"The API gateway manages client requests efficiently."}
+  ],
+    "Business": [
+    {"word":"arbitrage","pronunciation":"ahr-bi-trahj","definition":"Buying and selling to profit from price differences.","example":"The trader engaged in currency arbitrage."},
+    {"word":"synergy","pronunciation":"sin-er-jee","definition":"Combined effect greater than individual parts.","example":"The merger created synergy between the two companies."},
+    {"word":"leverage","pronunciation":"lev-er-ij","definition":"Using resources to maximum advantage.","example":"They leveraged their network to grow quickly."},
+    {"word":"benchmarking","pronunciation":"bench-mark-ing","definition":"Comparing processes or performance to best practices.","example":"Benchmarking helped improve productivity."},
+    {"word":"scalability","pronunciation":"skal-uh-bil-i-tee","definition":"Ability to grow or expand efficiently.","example":"The startup focused on scalability from day one."},
+    {"word":"outsourcing","pronunciation":"out-sors-ing","definition":"Hiring external companies to handle business tasks.","example":"Outsourcing reduced operational costs."},
+    {"word":"disruptive","pronunciation":"dis-rupt-iv","definition":"Innovative and changing the market radically.","example":"The company introduced a disruptive technology."},
+    {"word":"stakeholder","pronunciation":"stayk-hohl-der","definition":"A person with interest in a company/project.","example":"Stakeholders were invited to the meeting."},
+    {"word":"due diligence","pronunciation":"doo dil-i-jens","definition":"Investigating before a business decision.","example":"They performed due diligence before acquiring the firm."},
+    {"word":"KPIs","pronunciation":"K-P-I-s","definition":"Key performance indicators to measure success.","example":"They tracked KPIs to monitor progress."},
+    {"word":"fiscal","pronunciation":"fis-kuhl","definition":"Related to financial matters.","example":"The fiscal year ends in December."},
+    {"word":"archetype","pronunciation":"ahr-ki-type","definition":"A typical example of something.","example":"The CEO embodied the archetype of leadership."},
+    {"word":"brand equity","pronunciation":"brand ek-wi-tee","definition":"Value derived from a brand name.","example":"Strong brand equity boosts sales."},
+    {"word":"monetization","pronunciation":"mon-uh-tuh-zay-shun","definition":"Converting assets into revenue.","example":"App monetization is crucial for startups."},
+    {"word":"pivot","pronunciation":"piv-ot","definition":"Changing strategy while keeping core elements.","example":"The company had to pivot after market failure."},
+    {"word":"vertical integration","pronunciation":"vur-ti-kuhl in-tuh-gray-shun","definition":"Controlling multiple stages of production.","example":"Vertical integration reduced costs."},
+    {"word":"liquidity","pronunciation":"lik-wid-i-tee","definition":"Ease of converting assets to cash.","example":"Liquidity is vital for business stability."},
+    {"word":"syndication","pronunciation":"sin-di-kay-shun","definition":"Distributing content or assets to multiple outlets.","example":"Syndication helped expand reach."},
+    {"word":"hedging","pronunciation":"hej-ing","definition":"Protecting against financial risk.","example":"They used hedging to minimize losses."},
+    {"word":"benchmark","pronunciation":"bench-mark","definition":"A standard to measure performance.","example":"The benchmark was set high for quality."},
+    {"word":"capitalization","pronunciation":"kap-i-tl-i-zay-shun","definition":"Amount of capital raised for investment.","example":"Capitalization affects a company’s growth."},
+    {"word":"profit margin","pronunciation":"prof-it mar-jin","definition":"Difference between revenue and cost.","example":"High profit margin indicates efficiency."},
+    {"word":"cash flow","pronunciation":"kash floh","definition":"Movement of money in and out of a business.","example":"Positive cash flow ensures operations."},
+    {"word":"market penetration","pronunciation":"mar-kit pen-i-tray-shun","definition":"Extent a product is recognized in the market.","example":"Market penetration increased after advertising."},
+    {"word":"competitive advantage","pronunciation":"kom-pet-i-tiv ad-van-tij","definition":"An edge over rivals in the market.","example":"Quality service gives a competitive advantage."},
+    {"word":"diversification","pronunciation":"di-ver-si-fi-kay-shun","definition":"Spreading investments to reduce risk.","example":"Diversification minimizes exposure to losses."},
+    {"word":"value proposition","pronunciation":"val-yoo prop-uh-zish-un","definition":"The promise of value to be delivered to customers.","example":"A clear value proposition attracts buyers."},
+    {"word":"lean methodology","pronunciation":"leen meth-uh-dol-uh-jee","definition":"Efficient management approach to reduce waste.","example":"Lean methodology improves productivity."},
+    {"word":"SWOT analysis","pronunciation":"swot an-uh-luh-sis","definition":"Analyzing strengths, weaknesses, opportunities, threats.","example":"They conducted a SWOT analysis for strategy."},
+    {"word":"blue ocean strategy","pronunciation":"bloo oh-shun strat-uh-jee","definition":"Creating uncontested market space.","example":"The startup adopted a blue ocean strategy."},
+    {"word":"crowdsourcing","pronunciation":"crowd-sors-ing","definition":"Obtaining services or ideas from a large group.","example":"They used crowdsourcing for design ideas."},
+    {"word":"exit strategy","pronunciation":"eks-it strat-uh-jee","definition":"Plan to leave a business or investment.","example":"The investors discussed an exit strategy."},
+    {"word":"brand positioning","pronunciation":"brand po-zish-uh-ning","definition":"How a brand is perceived in the market.","example":"Brand positioning distinguishes products from competitors."},
+    {"word":"economies of scale","pronunciation":"ee-kon-uh-meez of skayl","definition":"Cost advantages due to increased production.","example":"Economies of scale lowered manufacturing costs."}
+  ],
+    "Science": [
+    {"word":"photosynthesis","pronunciation":"foh-toh-sin-thuh-sis","definition":"Process by which plants convert sunlight into energy.","example":"Photosynthesis produces oxygen for the atmosphere."},
+    {"word":"mitochondria","pronunciation":"my-toh-kon-dree-uh","definition":"Organelles that generate energy in cells.","example":"Mitochondria are often called the powerhouses of the cell."},
+    {"word":"thermodynamics","pronunciation":"thur-moh-die-nam-iks","definition":"Study of heat and energy transfer.","example":"Thermodynamics explains how engines work."},
+    {"word":"isotope","pronunciation":"eye-so-tope","definition":"Variants of an element with different numbers of neutrons.","example":"Carbon-14 is a radioactive isotope."},
+    {"word":"osmosis","pronunciation":"oz-moh-sis","definition":"Movement of water through a membrane.","example":"Plants absorb water through osmosis."},
+    {"word":"supernova","pronunciation":"soo-per-noh-vuh","definition":"A massive star explosion.","example":"A supernova can outshine an entire galaxy."},
+    {"word":"quark","pronunciation":"kwark","definition":"A fundamental particle that makes up protons and neutrons.","example":"Quarks are essential to nuclear physics."},
+    {"word":"entropy","pronunciation":"en-tro-pee","definition":"Measure of disorder in a system.","example":"Entropy always increases in isolated systems."},
+    {"word":"catalyst","pronunciation":"kat-uh-list","definition":"A substance that speeds up a chemical reaction.","example":"Enzymes act as catalysts in the body."},
+    {"word":"polymer","pronunciation":"pol-uh-mer","definition":"A substance made of large molecules of repeating units.","example":"Plastic is a common synthetic polymer."},
+    {"word":"nanotechnology","pronunciation":"nan-oh-tek-nol-uh-jee","definition":"Manipulation of matter at the atomic level.","example":"Nanotechnology is used in medicine and electronics."},
+    {"word":"epigenetics","pronunciation":"ep-ih-juh-net-iks","definition":"Study of changes in gene expression not caused by DNA sequence changes.","example":"Epigenetics shows how environment affects health."},
+    {"word":"plate tectonics","pronunciation":"playt tek-ton-iks","definition":"Theory explaining movement of Earth’s crustal plates.","example":"Plate tectonics cause earthquakes and volcanoes."},
+    {"word":"dark matter","pronunciation":"dark mat-er","definition":"A mysterious form of matter that does not emit light.","example":"Dark matter makes up most of the universe’s mass."},
+    {"word":"biodiversity","pronunciation":"bye-oh-dye-vur-si-tee","definition":"Variety of life in a particular habitat.","example":"Rainforests have high biodiversity."},
+    {"word":"algorithm","pronunciation":"al-guh-rith-um","definition":"Step-by-step procedure for calculations.","example":"Algorithms power search engines."},
+    {"word":"synapse","pronunciation":"sin-aps","definition":"Junction between two nerve cells.","example":"Signals travel across a synapse using neurotransmitters."},
+    {"word":"taxonomy","pronunciation":"tak-son-uh-mee","definition":"Science of classification of organisms.","example":"Taxonomy places humans in the primate order."},
+    {"word":"cryogenics","pronunciation":"cry-oh-jen-iks","definition":"Study of materials at extremely low temperatures.","example":"Cryogenics is used to preserve biological samples."},
+    {"word":"quantum entanglement","pronunciation":"kwon-tum en-tang-guhl-ment","definition":"A quantum state where particles remain linked.","example":"Quantum entanglement puzzled Einstein himself."}
+  ],
+    "Arts": [
+    {"word":"aesthetic","pronunciation":"es-thet-ik","definition":"Concerned with beauty or artistic taste.","example":"The painting has a minimalist aesthetic."},
+    {"word":"composition","pronunciation":"kom-puh-zish-un","definition":"Arrangement of elements in art or music.","example":"The composition of the photo draws the eye to the center."},
+    {"word":"palette","pronunciation":"pal-it","definition":"Range of colors used in art.","example":"The artist used a pastel palette."},
+    {"word":"perspective","pronunciation":"per-spek-tiv","definition":"Technique to represent three dimensions on a flat surface.","example":"The drawing uses one-point perspective."},
+    {"word":"allegory","pronunciation":"al-uh-gor-ee","definition":"A story with a hidden moral or political meaning.","example":"The novel is an allegory of freedom."},
+    {"word":"motif","pronunciation":"mo-teef","definition":"A recurring element in art or literature.","example":"The motif of light appears throughout the play."},
+    {"word":"surrealism","pronunciation":"soo-ree-uh-lizm","definition":"20th-century art movement focused on dreams and imagination.","example":"Dali’s paintings are classic surrealism."},
+    {"word":"cadence","pronunciation":"kay-dens","definition":"Rhythmic flow of sounds or words.","example":"The poem ends with a calming cadence."},
+    {"word":"monochrome","pronunciation":"mon-oh-krohm","definition":"Art in a single color.","example":"The photograph was shot in monochrome."},
+    {"word":"impressionism","pronunciation":"im-presh-uh-nizm","definition":"Art style capturing light and movement with quick brushstrokes.","example":"Monet is famous for impressionism."},
+    {"word":"chiaroscuro","pronunciation":"kee-ar-oh-skoo-roh","definition":"Use of light and shadow in art.","example":"Caravaggio mastered chiaroscuro."},
+    {"word":"calligraphy","pronunciation":"kuh-lig-ruh-fee","definition":"Decorative handwriting or lettering.","example":"The invitation was written in calligraphy."},
+    {"word":"intonation","pronunciation":"in-toh-nay-shun","definition":"The rise and fall of voice in speech or singing.","example":"Her intonation gave the song emotion."},
+    {"word":"figuration","pronunciation":"fig-yoo-ray-shun","definition":"Representation of real-world objects in art.","example":"Figuration contrasts with abstraction."},
+    {"word":"polyphony","pronunciation":"puh-lif-uh-nee","definition":"Music with multiple independent melodies.","example":"Polyphony is common in Renaissance music."},
+    {"word":"fresco","pronunciation":"fres-koh","definition":"Mural painting on wet plaster.","example":"Michelangelo’s Sistine Chapel is a fresco."},
+    {"word":"leitmotif","pronunciation":"lite-mo-teef","definition":"A recurring musical theme associated with a character or idea.","example":"The villain’s leitmotif played during his entrance."},
+    {"word":"minimalism","pronunciation":"min-uh-muh-lizm","definition":"Art style focused on simplicity and limited elements.","example":"Minimalism emphasizes clean lines."},
+    {"word":"proscenium","pronunciation":"proh-see-nee-um","definition":"The part of a stage in front of the curtain.","example":"The play was performed on a proscenium stage."},
+    {"word":"arabesque","pronunciation":"ar-uh-besk","definition":"Ornamental design featuring intertwined lines; also a ballet position.","example":"The dancer held a perfect arabesque."}
+  ]
   }
-  
+}
