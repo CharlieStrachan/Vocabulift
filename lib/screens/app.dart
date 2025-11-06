@@ -73,10 +73,9 @@ class _AppState extends State<App> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CustomText(text: _currentWord.word, fontSize: 24),
-              CustomText(text: _currentWord.pronunciation, faded: true),
+              CustomText(text: _currentWord.word, fontSize: 24),              CustomText(text: _currentWord.pronunciation, faded: true),
               SizedBox(height: 10),
-              CustomText(text: _currentWord.definition),
+              SizedBox(height: 50, child: CustomText(text: _currentWord.definition)),
               SizedBox(height: 10),
               Button(onTap: _nextWord, text: "Next Word"),
             ],
